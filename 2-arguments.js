@@ -1,8 +1,4 @@
-let i = 1;
-if (i=1){
-    console.log('Arguments found');
-} else if(i>1){
-    console.log('Argument found');
-} else {
-    console.log('No argument');
+let a = ['Arguments found','Argument found','No argument'];
+for(i=0;i<=2;i++){
+    console.log(a[i]);
 }
